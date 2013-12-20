@@ -13,7 +13,7 @@ describe("Chrome fixtures", function() {
 
 
   it("should work with css selector with jasmine-fixture", function() {
-    affix('div#test div#test1')
+    affix('#test #test1+#test2+#test3')
     $("#test1").remove()
     expect($('<div id="test"></div>')).toBe('#test')
   })
