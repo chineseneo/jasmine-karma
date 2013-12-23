@@ -23,9 +23,8 @@ module.exports = function(config) {
       'test/lib/jasmine-jquery.js',
       {
         pattern: 'test/fixtures/**/*.html',
-        watched: true,
-        included: false,
-        served: true
+        watched: false,
+        included: false
       }
     ],
 
